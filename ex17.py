@@ -1,12 +1,13 @@
 from sys import argv
 from os.path import exists
 
+# takes 3 arguments
 script, from_file, to_file = argv# pylint: disable=unbalanced-tuple-unpacking
 print(f"Copying from {from_file} to {to_file}")
 
 # we could do these two on one line, how?
 in_file = open(from_file)
-
+# to debug, repr gives you the raw representation, will get a strange output, telling you useful information. Sometimes errors will look like this 
 print(">>>> in_file=", repr(in_file))
 indata = in_file.read()
 
