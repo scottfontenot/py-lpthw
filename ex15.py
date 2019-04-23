@@ -1,3 +1,5 @@
+# call this by using 2 arguments, ex15.py and ex15_sample.txt
+
 from sys import argv
 # get the file name from user
 script, filename = argv

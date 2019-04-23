@@ -1,3 +1,5 @@
+# to call this you need to add ex14.py and your_name
+
 from sys import argv
 
 script, user_name = argv
