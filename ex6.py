@@ -1,6 +1,6 @@
 # assign 10 to types_of_people
 types_of_people = 10
-# print(type(types_of_people))
+#print(type(types_of_people))
 
 # assign the f-string to x(insert string variable)
 x = f"There are {types_of_people} types of people."

@@ -1,4 +1,4 @@
-# "edn=' '" puts a space after the " ? " AND doesn't go to a newline.
+# end=' ' puts a space after the " ? " AND doesn't go to a newline.
 print("How old are you?", end=' ')
 age = input()
 # converts input to an integer before assigning it to age. Throws error if input is a string
